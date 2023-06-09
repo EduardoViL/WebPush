@@ -53,7 +53,7 @@ if (form) {
     $("#myform").on("submit", function(event) {
         $.ajax({
           type: 'POST',
-          url: 'http://localhost/prodheg/Database.php',
+          url: 'http://localhost/WebPush/Database.php',
           data: $( this ).serialize(),
           success: function(data) {
             console.log(data)
