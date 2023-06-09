@@ -24,7 +24,7 @@ const subscription = async () => {
             "Content-Type": "application/json"
         }
     });
-    console.log("Subscribed!");
+    console.log("Suscrito!");
 };
 
 function urlBase64ToUint8Array(base64String) {
